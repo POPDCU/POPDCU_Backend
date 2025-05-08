@@ -1,0 +1,19 @@
+INSERT INTO college (college_name, count_number) VALUES ('프란치스코칼리지', 0);
+INSERT INTO college (college_name, count_number) VALUES ('유스티노자유대학', 0);
+INSERT INTO college (college_name, count_number) VALUES ('글로벌비지니스대학', 0);
+INSERT INTO college (college_name, count_number) VALUES ('신학대학', 0);
+INSERT INTO college (college_name, count_number) VALUES ('바이오메디대학', 0);
+INSERT INTO college (college_name, count_number) VALUES ('공과대학', 0);
+INSERT INTO college (college_name, count_number) VALUES ('반도체대학', 0);
+INSERT INTO college (college_name, count_number) VALUES ('소프트웨어융합대학', 0);
+INSERT INTO college (college_name, count_number) VALUES ('의과대학', 0);
+INSERT INTO college (college_name, count_number) VALUES ('간호대학', 0);
+INSERT INTO college (college_name, count_number) VALUES ('약학대학', 0);
+INSERT INTO college (college_name, count_number) VALUES ('사회과학대학', 0);
+INSERT INTO college (college_name, count_number) VALUES ('사범대학', 0);
+INSERT INTO college (college_name, count_number) VALUES ('음악공연대학', 0);
+INSERT INTO college (college_name, count_number) VALUES ('디자인대학', 0);
+INSERT INTO college (college_name, count_number) VALUES ('경북미래라이프대학', 0);
+
+-- 관리자 계정 추가 (아이디: admin, 비밀번호: admin123)
+INSERT INTO admin (username, password) VALUES ('admin', 'admin123');

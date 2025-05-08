@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS college;
+DROP TABLE IF EXISTS admin;
+
+CREATE TABLE college (
+    id SERIAL PRIMARY KEY,
+    college_name VARCHAR(255) NOT NULL,
+    count_number BIGINT NOT NULL
+);
+
+CREATE TABLE admin (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+);
