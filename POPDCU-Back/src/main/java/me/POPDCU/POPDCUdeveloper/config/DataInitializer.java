@@ -18,7 +18,6 @@ public class DataInitializer {
     @Bean
     public CommandLineRunner initData() {
         return args -> {
-            // 기본 관리자 계정이 없으면 생성
             Optional<Admin> existingAdmin = adminRepository.findByUsername("admin");
             
             if (existingAdmin.isEmpty()) {
